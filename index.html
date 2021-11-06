@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatics</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+
+
+        <!-- Logo Starts -->
+        <a href="index.html"><img src="AQUATICS-removebg-preview.png" alt="AQUATICS-removebg-preview.png" class="logo"></a>
+        <!-- Logo Ends -->
+
+
+        <!-- Navbar Starts -->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#flora">Flora</a>
+            <a href="#fauna">Fauna</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- Navbar Ends -->
+
+        <menu class="menubar" id="menupage" onclick="menu_close()">
+            <a href="#home">Home</a><br>
+            <a href="#flora">Flora</a><br>
+            <a href="#fauna">Fauna</a><br>
+            <a href="#blog">Blog</a><br>
+            <a href="#contact">Contact</a><br>
+        </menu>
+
+
+        <!-- Icon Menu Starts -->
+        <div class="icons">
+            <span class="material-icons" id="menu" onclick="menu_open()">
+                menu
+            </span>
+            <span class="material-icons" id="close_menu" onclick="menu_close()">close</span>
+            <span class="material-icons" id="search" onclick="myFunction1()">search</span>
+            <span class="material-icons" id="close" onclick="myFunction2()">close</span>
+            <span class="material-icons" id="account_circle" onclick="function_click()">account_circle</span>
+            <span class="material-icons" id="close_profile" onclick="myFunction3()">close</span>
+        </div>
+        <!-- Icon Menu Ends -->
+
+
+        <!-- Search Form Starts -->
+        <form action="" class="search_form" id="myForm">
+            <input type="search" placeholder="Search" id="search_box">
+            <label for="search_box" class="material-icons" id="searcher">search</label>
+        </form>
+        <!-- Search Form Ends -->
+
+
+        <!-- Profile Form Starts -->
+        <form action="" class="profile_form" id="myProfileForm">
+            <input type="email" placeholder="Email ID" id="email_box">
+            <input type="password" placeholder="Password" id="password_box">
+            <button id="login_btn" class="login">Login Now</button>
+        </form>
+        <!-- Profile form ends -->
+
+
+    </header>
+
+
+    <!-- Video Background Starts -->
+    <section class="V_bg" id="home">
+        <video autoplay muted loop class="myVideo">
+            <source src="underwater.mp4">
+        </video>
+        <div class="content">
+            <h1 class="heading1">Life Underwater</h1>
+            <h2 class="heading2">The aquatic world</h2>
+            <p class="para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi autem, ipsum velit dignissimos a non est harum ullam quia at debitis quam? Alias animi voluptas, tenetur velit voluptatem fuga ullam vitae repellat officiis pariatur laudantium magni dolorum, earum eligendi tempore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos officia, impedit architecto, quia doloremque accusamus itaque repellat saepe ab cupiditate vel.
+            </p>
+            <div class="link"><a href="#" class="dummy_btn">Discover more</a></div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+    <!-- Video Background Ends -->
+
+
+    <div class="strip"></div>
+
+    <!-- Aquatic Flora Starts -->
+    <div class="flora" id="flora">
+
+        <div class="slides">
+
+            <input type="radio" id="radio1" class="radio_btn" name="radio-btn">
+            <input type="radio" id="radio2" class="radio_btn" name="radio-btn">
+            <input type="radio" id="radio3" class="radio_btn" name="radio-btn">
+
+            <section class="slide first" id="flora1">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic flora</h2>
+                    <h1 class="heading1">Water Lily</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+            <section class="slide" id="flora2">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic flora</h2>
+                    <h1 class="heading1">Lotus</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+            <section class="slide" id="flora3">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic flora</h2>
+                    <h1 class="heading1">Water Hyacinth</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="navigation_manual">
+            <label for="radio1" class="manual_btn"></label>
+            <label for="radio2" class="manual_btn"></label>
+            <label for="radio3" class="manual_btn"></label>
+        </div>
+
+    </div>
+    <!-- Aquatic Flora Ends -->
+
+    <div class="strip"></div>
+
+    <!-- Aquatic Fauna Starts -->
+    <div class="fauna" id="fauna">
+
+        <div class="slides">
+
+            <input type="radio" id="check1" class="radio_btn" name="check-btn">
+            <input type="radio" id="check2" class="radio_btn" name="check-btn">
+            <input type="radio" id="check3" class="radio_btn" name="check-btn">
+
+            <section class="slide2 first" id="fauna1">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic fauna</h2>
+                    <h1 class="heading1">Dolphin</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+            <section class="slide2" id="fauna2">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic fauna</h2>
+                    <h1 class="heading1">Jelly fish</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+            <section class="slide2" id="fauna3">
+                <div class="content2">
+                    <h2 class="heading2">Aquatic fauna</h2>
+                    <h1 class="heading1">Angel fish</h1>
+                    <p class="para">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque voluptatem illum excepturi ea accusantium, repudiandae quisquam modi, voluptates iusto vel saepe corporis suscipit. Nisi atque nobis ratione consectetur! Minima quod quas exercitationem saepe dolores explicabo inventore officia numquam consequuntur.
+                    </p>
+                    <div class="link"><a href="#" class="dummy_btn">Know more</a></div>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="navigation_manual1">
+            <label for="check1" class="manual_btn"></label>
+            <label for="check2" class="manual_btn"></label>
+            <label for="check3" class="manual_btn"></label>
+        </div>
+
+    </div>
+    <!-- Aquatic Fauna Ends -->
+
+    <div class="strip"></div>
+
+    <!-- Blog section starts -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Read Our Blogs</h1>
+        <div class="blog_page">
+            <div class="blog_card">
+                <div class="blog_image">
+                <img src="coral.jpg" class="blog_img">
+                </div>
+                <div class="blog_content">
+                    <h4><span class="material-icons" id="date_icon">date_range</span>November 05, 2021</h4>
+                    <hr>
+                    <h3 class="blog_heading">Coral Reefs</h3>
+                    <p class="blog_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed at! Officiis porro saepe dolorum perspiciatis rerum cumque.</p>
+                    <div class="blog_links"><a href="#" class="blog_link">Read more</a></div>
+                </div>
+            </div>
+            <div class="blog_card">
+                <div class="blog_image">
+                <img src="polar.jpg" class="blog_img">
+                </div>
+                <div class="blog_content">
+                    <h4><span class="material-icons" id="date_icon">date_range</span>November 05, 2021</h4>
+                    <hr>
+                    <h3 class="blog_heading">Polar Waters</h3>
+                    <p class="blog_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed at! Officiis porro saepe dolorum perspiciatis rerum cumque.</p>
+                    <div class="blog_links"><a href="#" class="blog_link">Read more</a></div>
+                </div>
+            </div>
+            <div class="blog_card">
+                <div class="blog_image">
+                <img src="glacier.jpg" class="blog_img">
+                </div>
+                <div class="blog_content">
+                    <h4><span class="material-icons" id="date_icon">date_range</span>November 05, 2021</h4>
+                    <hr>
+                    <h3 class="blog_heading">Glaciers Meltdown</h3>
+                    <p class="blog_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed at! Officiis porro saepe dolorum perspiciatis rerum cumque.</p>
+                    <div class="blog_links"><a href="#" class="blog_link">Read more</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog section ends -->
+
+    <div class="strip"></div>
+
+    <!-- Contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact Us</h1>
+        <div class="contact_card">
+            <div class="contact_img">
+                <img src="scuba.jpg">
+            </div>
+            <div class="contact_content">
+                <h5 class="contact_headline">Want to become a scuba diver</h5>
+                <div class="inputs">
+                    <span class="material-icons" id="contact_icon1">person</span>
+                    <input type="text" name="email_btn" placeholder="Your Name" class="contact_input">
+                </div>
+                <div class="inputs">
+                    <span class="material-icons" id="contact_icon2">email</span>
+                    <input type="email" name="name_btn" placeholder="Your Email" class="contact_input">
+                </div>
+                <div class="inputs">
+                    <span class="material-icons" id="contact_icon3">phone</span>
+                    <input type="tel" name="telephone_btn" placeholder="Your Number" class="contact_input">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit" class="submit_btn">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Footer starts -->
+    <footer class="foot">
+        <div class="foot_links">
+            <div class="foot_link">
+                <h1>Quick links</h1><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Home</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Flora</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Fauna</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Blog</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Contact</a>
+            </div>
+            <div class="foot_link">
+                <h1>Extra links</h1><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Account Info</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Our Services</a><br>
+                <span class="material-icons">east</span><a href="#" class="footer_link">Privacy Policy</a>
+            </div>
+            <div class="foot_link">
+                <h1>Follow us</h1><br>
+                <a href="#" class="fa fa-facebook"></a><a href="#" class="footer_link">Facebook</a><br>
+                <a href="#" class="fa fa-instagram"></a><a href="#" class="footer_link">Instagram</a><br>
+                <a href="#" class="fa fa-twitter"></a><a href="#" class="footer_link">Twitter</a><br>
+                <a href="#" class="fa fa-youtube"></a><a href="#" class="footer_link">YouTube</a><br>
+                <a href="#" class="fa fa-pinterest"></a><a href="#" class="footer_link">Pinterest</a>
+            </div>
+        </div>
+        <div class="credits"><h3 class="credit">Created by Harsh Nichat | All rights reserved</h3></div>
+    </footer>
+    <!-- Footer ends -->
+</body>
+</html>
